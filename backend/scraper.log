@@ -1,0 +1,421 @@
+2025-03-11 06:58:52,860 - TwitchScraper - INFO - Démarrage du planificateur - Intervalle: 15 minutes
+2025-03-11 06:58:52,862 - TwitchScraper - INFO - Démarrage du cycle de scraping
+2025-03-11 06:58:52,862 - TwitchScraper - INFO - Démarrage du scraping des catégories Twitch
+2025-03-11 06:58:52,863 - WDM - INFO - ====== WebDriver manager ======
+2025-03-11 06:58:55,713 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 06:58:58,862 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 06:58:58,962 - WDM - INFO - There is no [win64] chromedriver "134.0.6998.88" for browser google-chrome "134.0.6998" in cache
+2025-03-11 06:58:58,963 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 06:58:59,188 - WDM - INFO - WebDriver version 134.0.6998.88 selected
+2025-03-11 06:58:59,191 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/win32/chromedriver-win32.zip
+2025-03-11 06:58:59,192 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/win32/chromedriver-win32.zip
+2025-03-11 06:58:59,308 - WDM - INFO - Driver downloading response is 200
+2025-03-11 06:59:02,790 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 06:59:13,310 - WDM - INFO - Driver has been saved in cache [C:\Users\hamza\.wdm\drivers\chromedriver\win64\134.0.6998.88]
+2025-03-11 06:59:15,599 - TwitchScraper - ERROR - Erreur lors du scraping des catégories: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=134.0.6998.88)
+Stacktrace:
+	GetHandleVerifier [0x00F2B5A3+24387]
+	(No symbol) [0x00EB5904]
+	(No symbol) [0x00D90753]
+	(No symbol) [0x00D8DB9E]
+	(No symbol) [0x00D814B8]
+	(No symbol) [0x00D82DC0]
+	(No symbol) [0x00D81747]
+	(No symbol) [0x00D812A3]
+	(No symbol) [0x00D80FB1]
+	(No symbol) [0x00D7EE80]
+	(No symbol) [0x00D7F91B]
+	(No symbol) [0x00D9420E]
+	(No symbol) [0x00E1FDE7]
+	(No symbol) [0x00DFD84C]
+	(No symbol) [0x00E1F138]
+	(No symbol) [0x00DFD646]
+	(No symbol) [0x00DCC59F]
+	(No symbol) [0x00DCD8E4]
+	GetHandleVerifier [0x0122D883+3179043]
+	GetHandleVerifier [0x01246CF9+3282585]
+	GetHandleVerifier [0x0124167C+3260444]
+	GetHandleVerifier [0x00FC4330+650448]
+	(No symbol) [0x00EBED0D]
+	(No symbol) [0x00EBBAF8]
+	(No symbol) [0x00EBBC99]
+	(No symbol) [0x00EAE530]
+	BaseThreadInitThunk [0x76C25D49+25]
+	RtlInitializeExceptionChain [0x7795CDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x7795CD71+561]
+
+2025-03-11 06:59:17,709 - TwitchScraper - INFO - Cycle de scraping terminé
+2025-03-11 07:03:52,860 - TwitchScraper - INFO - Démarrage du planificateur - Intervalle: 15 minutes
+2025-03-11 07:03:52,861 - TwitchScraper - INFO - Démarrage du cycle de scraping
+2025-03-11 07:03:52,861 - TwitchScraper - INFO - Démarrage du scraping des catégories Twitch
+2025-03-11 07:03:52,861 - WDM - INFO - ====== WebDriver manager ======
+2025-03-11 07:03:55,256 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:03:55,354 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:03:55,441 - WDM - INFO - Driver [C:\Users\hamza\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-11 07:04:00,761 - TwitchScraper - INFO - Scroll 1/8
+2025-03-11 07:04:03,788 - TwitchScraper - INFO - Trouvé 93 catégories
+2025-03-11 07:04:07,299 - MongoDB - INFO - 30 catégories enregistrées dans MongoDB
+2025-03-11 07:04:07,300 - TwitchScraper - INFO - Scraping des catégories terminé. 30 catégories scrapées.
+2025-03-11 07:04:09,447 - TwitchScraper - INFO - Démarrage du scraping des streamers pour 30 catégories
+2025-03-11 07:04:09,447 - WDM - INFO - ====== WebDriver manager ======
+2025-03-11 07:04:11,920 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:04:16,062 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:04:16,145 - WDM - INFO - Driver [C:\Users\hamza\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-11 07:04:17,229 - TwitchScraper - INFO - Scraping des streamers pour Just Chatting
+2025-03-11 07:04:24,709 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:04:30,724 - TwitchScraper - INFO - Données scrapées pour Just Chatting: 29 streamers
+2025-03-11 07:04:30,724 - TwitchScraper - INFO - Scraping des streamers pour World of Warcraft
+2025-03-11 07:04:37,200 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:04:43,036 - TwitchScraper - INFO - Données scrapées pour World of Warcraft: 59 streamers
+2025-03-11 07:04:43,037 - TwitchScraper - INFO - Scraping des streamers pour League of Legends
+2025-03-11 07:04:46,497 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:04:51,831 - TwitchScraper - INFO - Données scrapées pour League of Legends: 89 streamers
+2025-03-11 07:04:51,831 - TwitchScraper - INFO - Scraping des streamers pour Grand Theft Auto V
+2025-03-11 07:04:57,566 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:05:02,871 - TwitchScraper - INFO - Données scrapées pour Grand Theft Auto V: 115 streamers
+2025-03-11 07:05:02,872 - TwitchScraper - INFO - Scraping des streamers pour Marvel Rivals
+2025-03-11 07:05:08,965 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:05:14,343 - TwitchScraper - INFO - Données scrapées pour Marvel Rivals: 145 streamers
+2025-03-11 07:05:14,343 - TwitchScraper - INFO - Scraping des streamers pour VALORANT
+2025-03-11 07:05:20,933 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:05:26,426 - TwitchScraper - INFO - Données scrapées pour VALORANT: 175 streamers
+2025-03-11 07:05:26,426 - TwitchScraper - INFO - Scraping des streamers pour R.E.P.O.
+2025-03-11 07:05:41,840 - TwitchScraper - ERROR - Erreur lors du scraping de R.E.P.O.: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00F2B5A3+24387]
+	(No symbol) [0x00EB5904]
+	(No symbol) [0x00D90753]
+	(No symbol) [0x00DD8BA9]
+	(No symbol) [0x00DD8EFB]
+	(No symbol) [0x00E219C2]
+	(No symbol) [0x00DFD894]
+	(No symbol) [0x00E1F138]
+	(No symbol) [0x00DFD646]
+	(No symbol) [0x00DCC59F]
+	(No symbol) [0x00DCD8E4]
+	GetHandleVerifier [0x0122D883+3179043]
+	GetHandleVerifier [0x01246CF9+3282585]
+	GetHandleVerifier [0x0124167C+3260444]
+	GetHandleVerifier [0x00FC4330+650448]
+	(No symbol) [0x00EBED0D]
+	(No symbol) [0x00EBBAF8]
+	(No symbol) [0x00EBBC99]
+	(No symbol) [0x00EAE530]
+	BaseThreadInitThunk [0x76C25D49+25]
+	RtlInitializeExceptionChain [0x7795CDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x7795CD71+561]
+
+2025-03-11 07:05:41,842 - TwitchScraper - INFO - Scraping des streamers pour Fortnite
+2025-03-11 07:05:47,642 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:05:53,007 - TwitchScraper - INFO - Données scrapées pour Fortnite: 205 streamers
+2025-03-11 07:05:53,007 - TwitchScraper - INFO - Scraping des streamers pour Virtual Casino
+2025-03-11 07:05:58,053 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:06:01,627 - TwitchScraper - INFO - Données scrapées pour Virtual Casino: 214 streamers
+2025-03-11 07:06:01,627 - TwitchScraper - INFO - Scraping des streamers pour Monster Hunter Wilds
+2025-03-11 07:06:07,409 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:06:12,919 - TwitchScraper - INFO - Données scrapées pour Monster Hunter Wilds: 242 streamers
+2025-03-11 07:06:12,919 - TwitchScraper - INFO - Scraping des streamers pour Dota 2
+2025-03-11 07:06:18,794 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:06:24,148 - TwitchScraper - INFO - Données scrapées pour Dota 2: 272 streamers
+2025-03-11 07:06:24,148 - TwitchScraper - INFO - Scraping des streamers pour Counter-Strike
+2025-03-11 07:06:30,302 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:06:35,317 - TwitchScraper - INFO - Données scrapées pour Counter-Strike: 301 streamers
+2025-03-11 07:06:35,317 - TwitchScraper - INFO - Scraping des streamers pour IRL
+2025-03-11 07:06:41,442 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:06:47,362 - TwitchScraper - INFO - Données scrapées pour IRL: 330 streamers
+2025-03-11 07:06:47,362 - TwitchScraper - INFO - Scraping des streamers pour Firewatch
+2025-03-11 07:06:52,912 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:06:56,334 - TwitchScraper - INFO - Données scrapées pour Firewatch: 334 streamers
+2025-03-11 07:06:56,335 - TwitchScraper - INFO - Scraping des streamers pour Natural Selection 2
+2025-03-11 07:07:01,676 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:07:05,439 - TwitchScraper - INFO - Données scrapées pour Natural Selection 2: 342 streamers
+2025-03-11 07:07:05,440 - TwitchScraper - INFO - Scraping des streamers pour Call of Duty: Warzone
+2025-03-11 07:07:20,867 - TwitchScraper - ERROR - Erreur lors du scraping de Call of Duty: Warzone: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00F2B5A3+24387]
+	(No symbol) [0x00EB5904]
+	(No symbol) [0x00D90753]
+	(No symbol) [0x00DD8BA9]
+	(No symbol) [0x00DD8EFB]
+	(No symbol) [0x00E219C2]
+	(No symbol) [0x00DFD894]
+	(No symbol) [0x00E1F138]
+	(No symbol) [0x00DFD646]
+	(No symbol) [0x00DCC59F]
+	(No symbol) [0x00DCD8E4]
+	GetHandleVerifier [0x0122D883+3179043]
+	GetHandleVerifier [0x01246CF9+3282585]
+	GetHandleVerifier [0x0124167C+3260444]
+	GetHandleVerifier [0x00FC4330+650448]
+	(No symbol) [0x00EBED0D]
+	(No symbol) [0x00EBBAF8]
+	(No symbol) [0x00EBBC99]
+	(No symbol) [0x00EAE530]
+	BaseThreadInitThunk [0x76C25D49+25]
+	RtlInitializeExceptionChain [0x7795CDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x7795CD71+561]
+
+2025-03-11 07:07:20,867 - TwitchScraper - INFO - Scraping des streamers pour Dead by Daylight
+2025-03-11 07:07:26,501 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:07:31,515 - TwitchScraper - INFO - Données scrapées pour Dead by Daylight: 369 streamers
+2025-03-11 07:07:31,515 - TwitchScraper - INFO - Scraping des streamers pour Apex Legends
+2025-03-11 07:07:37,272 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:07:42,323 - TwitchScraper - INFO - Données scrapées pour Apex Legends: 397 streamers
+2025-03-11 07:07:42,323 - TwitchScraper - INFO - Scraping des streamers pour Escape from Tarkov
+2025-03-11 07:07:48,217 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:07:53,407 - TwitchScraper - INFO - Données scrapées pour Escape from Tarkov: 426 streamers
+2025-03-11 07:07:53,407 - TwitchScraper - INFO - Scraping des streamers pour Hearthstone
+2025-03-11 07:07:59,188 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:08:04,374 - TwitchScraper - INFO - Données scrapées pour Hearthstone: 456 streamers
+2025-03-11 07:08:04,381 - MongoDB - INFO - 456 streamers enregistrés dans MongoDB
+2025-03-11 07:08:04,381 - TwitchScraper - INFO - Scraping des streamers terminé. 456 streamers scrapés.
+2025-03-11 07:08:06,628 - TwitchScraper - INFO - Cycle de scraping terminé
+2025-03-11 07:23:06,859 - TwitchScraper - INFO - Démarrage du cycle de scraping
+2025-03-11 07:23:06,859 - TwitchScraper - INFO - Démarrage du scraping des catégories Twitch
+2025-03-11 07:23:06,860 - WDM - INFO - ====== WebDriver manager ======
+2025-03-11 07:23:09,961 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:23:10,728 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:23:12,039 - WDM - INFO - Driver [C:\Users\hamza\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-11 07:23:23,802 - TwitchScraper - INFO - Scroll 1/8
+2025-03-11 07:23:26,833 - TwitchScraper - INFO - Trouvé 94 catégories
+2025-03-11 07:23:30,940 - MongoDB - INFO - 30 catégories enregistrées dans MongoDB
+2025-03-11 07:23:30,940 - TwitchScraper - INFO - Scraping des catégories terminé. 30 catégories scrapées.
+2025-03-11 07:23:33,092 - TwitchScraper - INFO - Démarrage du scraping des streamers pour 30 catégories
+2025-03-11 07:23:33,092 - WDM - INFO - ====== WebDriver manager ======
+2025-03-11 07:23:35,775 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:23:40,200 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:23:45,430 - WDM - INFO - Driver [C:\Users\hamza\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-11 07:23:46,509 - TwitchScraper - INFO - Scraping des streamers pour Just Chatting
+2025-03-11 07:23:58,655 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:24:04,588 - TwitchScraper - INFO - Données scrapées pour Just Chatting: 30 streamers
+2025-03-11 07:24:04,589 - TwitchScraper - INFO - Scraping des streamers pour World of Warcraft
+2025-03-11 07:24:12,073 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:24:18,128 - TwitchScraper - INFO - Données scrapées pour World of Warcraft: 59 streamers
+2025-03-11 07:24:18,128 - TwitchScraper - INFO - Scraping des streamers pour League of Legends
+2025-03-11 07:24:29,679 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:24:35,614 - TwitchScraper - INFO - Données scrapées pour League of Legends: 89 streamers
+2025-03-11 07:24:35,614 - TwitchScraper - INFO - Scraping des streamers pour VALORANT
+2025-03-11 07:24:42,386 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:24:49,004 - TwitchScraper - INFO - Données scrapées pour VALORANT: 119 streamers
+2025-03-11 07:24:49,004 - TwitchScraper - INFO - Scraping des streamers pour Grand Theft Auto V
+2025-03-11 07:24:57,548 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:25:04,181 - TwitchScraper - INFO - Données scrapées pour Grand Theft Auto V: 147 streamers
+2025-03-11 07:25:04,181 - TwitchScraper - INFO - Scraping des streamers pour Marvel Rivals
+2025-03-11 07:25:13,827 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:25:19,823 - TwitchScraper - INFO - Données scrapées pour Marvel Rivals: 173 streamers
+2025-03-11 07:25:19,823 - TwitchScraper - INFO - Scraping des streamers pour Fortnite
+2025-03-11 07:25:29,477 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:25:36,021 - TwitchScraper - INFO - Données scrapées pour Fortnite: 203 streamers
+2025-03-11 07:25:36,021 - TwitchScraper - INFO - Scraping des streamers pour Monster Hunter Wilds
+2025-03-11 07:25:46,567 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:25:52,272 - TwitchScraper - INFO - Données scrapées pour Monster Hunter Wilds: 230 streamers
+2025-03-11 07:25:52,272 - TwitchScraper - INFO - Scraping des streamers pour R.E.P.O.
+2025-03-11 07:26:10,277 - TwitchScraper - ERROR - Erreur lors du scraping de R.E.P.O.: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00F2B5A3+24387]
+	(No symbol) [0x00EB5904]
+	(No symbol) [0x00D90753]
+	(No symbol) [0x00DD8BA9]
+	(No symbol) [0x00DD8EFB]
+	(No symbol) [0x00E219C2]
+	(No symbol) [0x00DFD894]
+	(No symbol) [0x00E1F138]
+	(No symbol) [0x00DFD646]
+	(No symbol) [0x00DCC59F]
+	(No symbol) [0x00DCD8E4]
+	GetHandleVerifier [0x0122D883+3179043]
+	GetHandleVerifier [0x01246CF9+3282585]
+	GetHandleVerifier [0x0124167C+3260444]
+	GetHandleVerifier [0x00FC4330+650448]
+	(No symbol) [0x00EBED0D]
+	(No symbol) [0x00EBBAF8]
+	(No symbol) [0x00EBBC99]
+	(No symbol) [0x00EAE530]
+	BaseThreadInitThunk [0x76C25D49+25]
+	RtlInitializeExceptionChain [0x7795CDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x7795CD71+561]
+
+2025-03-11 07:26:10,277 - TwitchScraper - INFO - Scraping des streamers pour Dota 2
+2025-03-11 07:26:19,388 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:26:24,710 - TwitchScraper - INFO - Données scrapées pour Dota 2: 259 streamers
+2025-03-11 07:26:24,710 - TwitchScraper - INFO - Scraping des streamers pour Virtual Casino
+2025-03-11 07:26:33,135 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:26:36,840 - TwitchScraper - INFO - Données scrapées pour Virtual Casino: 267 streamers
+2025-03-11 07:26:36,840 - TwitchScraper - INFO - Scraping des streamers pour Counter-Strike
+2025-03-11 07:26:44,883 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:26:50,345 - TwitchScraper - INFO - Données scrapées pour Counter-Strike: 296 streamers
+2025-03-11 07:26:50,345 - TwitchScraper - INFO - Scraping des streamers pour IRL
+2025-03-11 07:27:00,625 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:27:06,477 - TwitchScraper - INFO - Données scrapées pour IRL: 325 streamers
+2025-03-11 07:27:06,477 - TwitchScraper - INFO - Scraping des streamers pour Firewatch
+2025-03-11 07:27:14,622 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:27:17,769 - TwitchScraper - INFO - Données scrapées pour Firewatch: 326 streamers
+2025-03-11 07:27:17,769 - TwitchScraper - INFO - Scraping des streamers pour Natural Selection 2
+2025-03-11 07:27:25,134 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:27:28,911 - TwitchScraper - INFO - Données scrapées pour Natural Selection 2: 334 streamers
+2025-03-11 07:27:28,911 - TwitchScraper - INFO - Scraping des streamers pour Apex Legends
+2025-03-11 07:27:39,171 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:27:44,721 - TwitchScraper - INFO - Données scrapées pour Apex Legends: 363 streamers
+2025-03-11 07:27:44,721 - TwitchScraper - INFO - Scraping des streamers pour Dead by Daylight
+2025-03-11 07:27:54,848 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:28:00,571 - TwitchScraper - INFO - Données scrapées pour Dead by Daylight: 393 streamers
+2025-03-11 07:28:00,571 - TwitchScraper - INFO - Scraping des streamers pour Escape from Tarkov
+2025-03-11 07:28:09,043 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:28:14,651 - TwitchScraper - INFO - Données scrapées pour Escape from Tarkov: 423 streamers
+2025-03-11 07:28:14,651 - TwitchScraper - INFO - Scraping des streamers pour Call of Duty: Warzone
+2025-03-11 07:28:33,300 - TwitchScraper - ERROR - Erreur lors du scraping de Call of Duty: Warzone: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00F2B5A3+24387]
+	(No symbol) [0x00EB5904]
+	(No symbol) [0x00D90753]
+	(No symbol) [0x00DD8BA9]
+	(No symbol) [0x00DD8EFB]
+	(No symbol) [0x00E219C2]
+	(No symbol) [0x00DFD894]
+	(No symbol) [0x00E1F138]
+	(No symbol) [0x00DFD646]
+	(No symbol) [0x00DCC59F]
+	(No symbol) [0x00DCD8E4]
+	GetHandleVerifier [0x0122D883+3179043]
+	GetHandleVerifier [0x01246CF9+3282585]
+	GetHandleVerifier [0x0124167C+3260444]
+	GetHandleVerifier [0x00FC4330+650448]
+	(No symbol) [0x00EBED0D]
+	(No symbol) [0x00EBBAF8]
+	(No symbol) [0x00EBBC99]
+	(No symbol) [0x00EAE530]
+	BaseThreadInitThunk [0x76C25D49+25]
+	RtlInitializeExceptionChain [0x7795CDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x7795CD71+561]
+
+2025-03-11 07:28:33,300 - TwitchScraper - INFO - Scraping des streamers pour Teamfight Tactics
+2025-03-11 07:28:44,693 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:28:49,803 - TwitchScraper - INFO - Données scrapées pour Teamfight Tactics: 450 streamers
+2025-03-11 07:28:49,810 - MongoDB - INFO - 450 streamers enregistrés dans MongoDB
+2025-03-11 07:28:49,810 - TwitchScraper - INFO - Scraping des streamers terminé. 450 streamers scrapés.
+2025-03-11 07:28:52,067 - TwitchScraper - INFO - Cycle de scraping terminé
+2025-03-11 07:43:52,311 - TwitchScraper - INFO - Démarrage du cycle de scraping
+2025-03-11 07:43:52,311 - TwitchScraper - INFO - Démarrage du scraping des catégories Twitch
+2025-03-11 07:43:52,312 - WDM - INFO - ====== WebDriver manager ======
+2025-03-11 07:43:55,167 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:43:55,600 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:44:11,315 - WDM - INFO - Driver [C:\Users\hamza\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-11 07:44:22,765 - TwitchScraper - INFO - Scroll 1/8
+2025-03-11 07:44:25,792 - TwitchScraper - INFO - Trouvé 93 catégories
+2025-03-11 07:44:31,191 - MongoDB - INFO - 30 catégories enregistrées dans MongoDB
+2025-03-11 07:44:31,191 - TwitchScraper - INFO - Scraping des catégories terminé. 30 catégories scrapées.
+2025-03-11 07:44:33,549 - TwitchScraper - INFO - Démarrage du scraping des streamers pour 30 catégories
+2025-03-11 07:44:33,549 - WDM - INFO - ====== WebDriver manager ======
+2025-03-11 07:44:37,190 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:44:42,655 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-11 07:44:47,477 - WDM - INFO - Driver [C:\Users\hamza\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-11 07:44:48,732 - TwitchScraper - INFO - Scraping des streamers pour Just Chatting
+2025-03-11 07:45:03,609 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:45:09,935 - TwitchScraper - INFO - Données scrapées pour Just Chatting: 30 streamers
+2025-03-11 07:45:09,936 - TwitchScraper - INFO - Scraping des streamers pour League of Legends
+2025-03-11 07:45:20,735 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:45:26,439 - TwitchScraper - INFO - Données scrapées pour League of Legends: 60 streamers
+2025-03-11 07:45:26,439 - TwitchScraper - INFO - Scraping des streamers pour World of Warcraft
+2025-03-11 07:45:34,609 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:45:40,240 - TwitchScraper - INFO - Données scrapées pour World of Warcraft: 90 streamers
+2025-03-11 07:45:40,240 - TwitchScraper - INFO - Scraping des streamers pour VALORANT
+2025-03-11 07:45:48,001 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:45:53,575 - TwitchScraper - INFO - Données scrapées pour VALORANT: 119 streamers
+2025-03-11 07:45:53,575 - TwitchScraper - INFO - Scraping des streamers pour Marvel Rivals
+2025-03-11 07:46:02,267 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:46:07,882 - TwitchScraper - INFO - Données scrapées pour Marvel Rivals: 149 streamers
+2025-03-11 07:46:07,882 - TwitchScraper - INFO - Scraping des streamers pour Grand Theft Auto V
+2025-03-11 07:46:17,068 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:46:22,763 - TwitchScraper - INFO - Données scrapées pour Grand Theft Auto V: 179 streamers
+2025-03-11 07:46:22,763 - TwitchScraper - INFO - Scraping des streamers pour IRL
+2025-03-11 07:46:31,196 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:46:38,374 - TwitchScraper - INFO - Données scrapées pour IRL: 208 streamers
+2025-03-11 07:46:38,374 - TwitchScraper - INFO - Scraping des streamers pour Monster Hunter Wilds
+2025-03-11 07:46:47,003 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:46:52,913 - TwitchScraper - INFO - Données scrapées pour Monster Hunter Wilds: 236 streamers
+2025-03-11 07:46:52,914 - TwitchScraper - INFO - Scraping des streamers pour Fortnite
+2025-03-11 07:47:02,265 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:47:07,688 - TwitchScraper - INFO - Données scrapées pour Fortnite: 264 streamers
+2025-03-11 07:47:07,688 - TwitchScraper - INFO - Scraping des streamers pour R.E.P.O.
+2025-03-11 07:47:24,285 - TwitchScraper - ERROR - Erreur lors du scraping de R.E.P.O.: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00F2B5A3+24387]
+	(No symbol) [0x00EB5904]
+	(No symbol) [0x00D90753]
+	(No symbol) [0x00DD8BA9]
+	(No symbol) [0x00DD8EFB]
+	(No symbol) [0x00E219C2]
+	(No symbol) [0x00DFD894]
+	(No symbol) [0x00E1F138]
+	(No symbol) [0x00DFD646]
+	(No symbol) [0x00DCC59F]
+	(No symbol) [0x00DCD8E4]
+	GetHandleVerifier [0x0122D883+3179043]
+	GetHandleVerifier [0x01246CF9+3282585]
+	GetHandleVerifier [0x0124167C+3260444]
+	GetHandleVerifier [0x00FC4330+650448]
+	(No symbol) [0x00EBED0D]
+	(No symbol) [0x00EBBAF8]
+	(No symbol) [0x00EBBC99]
+	(No symbol) [0x00EAE530]
+	BaseThreadInitThunk [0x76C25D49+25]
+	RtlInitializeExceptionChain [0x7795CDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x7795CD71+561]
+
+2025-03-11 07:47:24,285 - TwitchScraper - INFO - Scraping des streamers pour Dota 2
+2025-03-11 07:47:32,309 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:47:38,217 - TwitchScraper - INFO - Données scrapées pour Dota 2: 293 streamers
+2025-03-11 07:47:38,217 - TwitchScraper - INFO - Scraping des streamers pour Virtual Casino
+2025-03-11 07:47:46,221 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:47:50,058 - TwitchScraper - INFO - Données scrapées pour Virtual Casino: 301 streamers
+2025-03-11 07:47:50,058 - TwitchScraper - INFO - Scraping des streamers pour Counter-Strike
+2025-03-11 07:47:58,739 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:48:04,013 - TwitchScraper - INFO - Données scrapées pour Counter-Strike: 330 streamers
+2025-03-11 07:48:04,013 - TwitchScraper - INFO - Scraping des streamers pour Firewatch
+2025-03-11 07:48:11,657 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:48:14,853 - TwitchScraper - INFO - Données scrapées pour Firewatch: 332 streamers
+2025-03-11 07:48:14,853 - TwitchScraper - INFO - Scraping des streamers pour Natural Selection 2
+2025-03-11 07:48:22,240 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:48:25,861 - TwitchScraper - INFO - Données scrapées pour Natural Selection 2: 339 streamers
+2025-03-11 07:48:25,861 - TwitchScraper - INFO - Scraping des streamers pour Dead by Daylight
+2025-03-11 07:48:36,042 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:48:41,671 - TwitchScraper - INFO - Données scrapées pour Dead by Daylight: 368 streamers
+2025-03-11 07:48:41,672 - TwitchScraper - INFO - Scraping des streamers pour Apex Legends
+2025-03-11 07:48:49,855 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:48:55,566 - TwitchScraper - INFO - Données scrapées pour Apex Legends: 398 streamers
+2025-03-11 07:48:55,566 - TwitchScraper - INFO - Scraping des streamers pour Escape from Tarkov
+2025-03-11 07:49:02,740 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:49:08,564 - TwitchScraper - INFO - Données scrapées pour Escape from Tarkov: 428 streamers
+2025-03-11 07:49:08,565 - TwitchScraper - INFO - Scraping des streamers pour Teamfight Tactics
+2025-03-11 07:49:16,083 - TwitchScraper - INFO - Scroll 1/3
+2025-03-11 07:49:21,349 - TwitchScraper - INFO - Données scrapées pour Teamfight Tactics: 455 streamers
+2025-03-11 07:49:21,349 - TwitchScraper - INFO - Scraping des streamers pour Call of Duty: Warzone
+2025-03-11 07:49:39,343 - TwitchScraper - ERROR - Erreur lors du scraping de Call of Duty: Warzone: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00F2B5A3+24387]
+	(No symbol) [0x00EB5904]
+	(No symbol) [0x00D90753]
+	(No symbol) [0x00DD8BA9]
+	(No symbol) [0x00DD8EFB]
+	(No symbol) [0x00E219C2]
+	(No symbol) [0x00DFD894]
+	(No symbol) [0x00E1F138]
+	(No symbol) [0x00DFD646]
+	(No symbol) [0x00DCC59F]
+	(No symbol) [0x00DCD8E4]
+	GetHandleVerifier [0x0122D883+3179043]
+	GetHandleVerifier [0x01246CF9+3282585]
+	GetHandleVerifier [0x0124167C+3260444]
+	GetHandleVerifier [0x00FC4330+650448]
+	(No symbol) [0x00EBED0D]
+	(No symbol) [0x00EBBAF8]
+	(No symbol) [0x00EBBC99]
+	(No symbol) [0x00EAE530]
+	BaseThreadInitThunk [0x76C25D49+25]
+	RtlInitializeExceptionChain [0x7795CDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x7795CD71+561]
+
+2025-03-11 07:49:39,349 - MongoDB - INFO - 455 streamers enregistrés dans MongoDB
+2025-03-11 07:49:39,350 - TwitchScraper - INFO - Scraping des streamers terminé. 455 streamers scrapés.
+2025-03-11 07:49:41,609 - TwitchScraper - INFO - Cycle de scraping terminé
